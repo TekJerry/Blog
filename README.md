@@ -10,7 +10,7 @@ A fishing blog. Where anglers from all over the world can show their catches of 
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+Wireframes link here ---> https://whimsical.com/JKKNYMMZVgF9ACpQPdg94x
 
 ## Component Hierarchy
 
