@@ -3,7 +3,10 @@ import './App.css';
 import {useEffect, useState} from 'react' 
 import axios from 'axios';
 import { Routes, Route, Link } from 'react-router-dom'
-
+import { grabPosts } from './services';
+import Navbar from './components/Navbar'
+import Blogs from './components/Blogs'
+ 
 
 
 function App() {
@@ -11,17 +14,16 @@ function App() {
 
   useEffect(() => {
     const getApi = async () => {
-      const res = await axios.get(
-        `https://api.airtable.com/v0/${process.env.REACT_APP_API_BASE}/fishing?api_key=${process.env.REACT_APP_API_KEY}`
-      )
-      console.log(res.data)
+    const res = await grabPosts()
+    setPost(res)
     }
     getApi()
   }, [])
 
   return (
     <div className="App">
-      {/* <Form /> */}
+      <Navbar />
+      <Blogs post={post}/> 
     </div>
   );
 }
