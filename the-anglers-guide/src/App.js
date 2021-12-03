@@ -6,7 +6,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import { grabPosts } from './services';
 import Navbar from './components/Navbar'
 import Blogs from './components/Blogs'
- 
+import Card from './components/Card';
 
 
 function App() {
@@ -23,7 +23,11 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Blogs post={post}/> 
+      <Blogs post={post} />
+      <Card
+        title="Card Title"
+        imageUrl=""
+        body="Lorem" />
     </div>
   );
 }
