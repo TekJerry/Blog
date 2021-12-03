@@ -6,16 +6,15 @@ import { Routes, Route, Link } from 'react-router-dom'
 import { grabPosts } from './services';
 import Navbar from './components/Navbar'
 import Blogs from './components/Blogs'
-import Card from './components/Card';
 
 
 function App() {
-  const [post, setPost] = useState([])
+  const [posts, setPosts] = useState([])
 
   useEffect(() => {
     const getApi = async () => {
     const res = await grabPosts()
-    setPost(res)
+    setPosts(res)
     }
     getApi()
   }, [])
@@ -23,11 +22,10 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Blogs post={post} />
-      <Card
-        title="Card Title"
-        imageUrl=""
-        body="Lorem" />
+      <Routes>
+        <Route path="/" element={<Blogs posts={posts} />}/>
+    
+        </Routes>
     </div>
   );
 }
