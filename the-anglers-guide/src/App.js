@@ -6,6 +6,7 @@ import { grabPosts } from './services';
 import Navbar from './components/Navbar'
 import Blogs from './components/Blogs'
 import Form from './components/Form';
+import Blog from './components/Blog';
 
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Blogs posts={posts} />} />
-        <Route path="/newer" element={<Form setToggle= {setToggle}/>} />
+        <Route path="/newer" element={<Form setToggle={setToggle} />} />
+        <Route path="/posts/:id" element={<Blog posts={posts}/>}
         </Routes>
     </div>
   );
