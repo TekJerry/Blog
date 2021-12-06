@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
+import "./Blog.css"
 
 export default function Blog(props) {
 
@@ -17,8 +18,22 @@ export default function Blog(props) {
     <div>
       { post && post.fields &&
         <>
-        <h4>{post.fields.city}</h4>
-        <h2>{post.fields.state}</h2>
+      <div className="container">
+            <div className="image-containers">
+              <img className="main-image" src={post.fields.image} alt="Fish Caught" />
+                <div className="lake">{post.fields.lake}</div>
+                <div className="freshwater">{post.fields.freshwater}</div>
+          </div>
+          <div className="inner-container">
+          <div className="angler">{post.fields.angler}</div>
+          <div className="caught">{post.fields.date}</div>
+          <div className="description">{post.fields.description}</div>
+          <div className="location">
+            <h3>{post.fields.state}</h3>
+            <h3>{post.fields.city}</h3>
+            </div>
+          </div>
+        </div>
         </>
       }
       

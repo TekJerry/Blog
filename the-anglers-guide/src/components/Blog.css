@@ -1,0 +1,72 @@
+.main-image {
+  box-shadow: 9px 9px 20px rgb(148, 148, 148);
+  border: 3px solid red;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  border: green 3px solid;
+  height: 600px;
+}
+
+.image-containers {
+  display: flex;
+  position: relative;
+  text-align: center;
+  color: white;
+  flex-flow: row wrap;
+  border: red 3px solid;
+  width: 600px;
+  margin: 10px;
+}
+
+.lake {
+  position: absolute;
+  bottom: 25px;
+  right: 16px;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px #000000;
+}
+.freshwater {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 13px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.inner-container {
+  display: flex;
+  border: red 3px solid;
+}
+.angler {
+  display: flex;
+  border: 3px solid blue;
+  width: max-content;
+  height: max-content;
+}
+
+.caught {
+  display: flex;
+  border: 3px solid yellow;
+  width: max-content;
+  height: max-content;
+}
+
+.description {
+  display: flex;
+  border: 3px solid purple;
+  width: max-content;
+  height: max-content;
+}
+
+.location {
+  display: flex;
+  flex-flow: column wrap;
+  border: 3px solid black;
+  width: max-content;
+  height: max-content;
+}
