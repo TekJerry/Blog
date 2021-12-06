@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import axios from 'axios'
+import { BASE_URL } from '../services'
 
 export default function Form() {
 
@@ -15,7 +16,7 @@ export default function Form() {
   const [fish, setFish] = useState("")
   const [image, setImage] = useState("")
   const [date, setDate] = useState("")
-  const [toggle, setToggle]= useState(false)
+ 
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -33,7 +34,7 @@ export default function Form() {
       date,
       
     }
-    await axios.post('http://protected-plateau-20778.herokuapp.com/plants', newPost)
+    await axios.post(BASE_URL, newPost)
     setToggle(prevToggle => !prevToggle)
   }
 
