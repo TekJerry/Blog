@@ -17,7 +17,7 @@ export default function Blog(props) {
     <div>
       { post && post.fields &&
         <>
-        <h4>{post.field.city}</h4>
+        <h4>{post.fields.city}</h4>
         <h2>{post.fields.state}</h2>
         </>
       }

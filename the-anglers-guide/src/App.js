@@ -27,7 +27,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Blogs posts={posts} />} />
         <Route path="/newer" element={<Form setToggle={setToggle} />} />
-        <Route path="/posts/:id" element={<Blog posts={posts}/>}
+        <Route path="/posts/:id" element={<Blog posts={posts}/>} />
         </Routes>
     </div>
   );

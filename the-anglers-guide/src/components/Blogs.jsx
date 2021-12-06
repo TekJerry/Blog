@@ -9,9 +9,10 @@ export default function Blogs({posts}) {
       {posts.map((post) => (
         <Card
           key={post.id}
-        state={post.fields.state}
-        image={post.fields.image}
-        city={post.fields.city} />
+          state={post.fields.state}
+          image={post.fields.image}
+          city={post.fields.city}
+          post={post}/>
       ))}
     </div>
     </div>
