@@ -1,7 +1,8 @@
 .main-image {
   box-shadow: 9px 9px 20px rgb(148, 148, 148);
-  border: 3px solid red;
+  /* border: 3px solid red; */
   width: 100%;
+  border-radius: 15px;
 }
 
 .container {
@@ -18,7 +19,7 @@
   text-align: center;
   color: white;
   flex-flow: row wrap;
-  border: red 3px solid;
+  /* border: red 3px solid; */
   width: 700px;
   height: 550px;
 }
@@ -40,36 +41,40 @@
 
 .inner-container {
   display: flex;
-  border: red 3px solid;
+  /* border: red 3px solid; */
   margin-left: 30px;
   flex-flow: column nowrap;
   width: 900px;
+  background-color: rgb(29, 88, 55);
+  border-radius: 20px;
+  color: white;
 }
 .angler {
   display: flex;
-  border: 3px solid blue;
+  /* border: 3px solid blue; */
   width: max-content;
   height: max-content;
   margin-top: 10px;
+  margin-left: 6px;
+  font-size: 31px;
 }
 
 .caught {
   display: flex;
-  border: 3px solid yellow;
+  /* border: 3px solid yellow; */
   width: max-content;
   height: max-content;
-  margin-left: 30px;
+  margin-left: 190px;
   font-size: 12px;
   margin-top: 5px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .description {
   display: flex;
-  border: 3px solid purple;
+  /* border: 3px solid purple; */
   width: max-content;
   height: max-content;
-  margin-top: 25px;
   margin-left: 10px;
   margin-bottom: 50px;
 }
@@ -77,7 +82,7 @@
 .location {
   display: flex;
   flex-flow: row wrap;
-  border: 3px solid black;
+  /* border: 3px solid black; */
   width: max-content;
   height: max-content;
   margin-left: 750px;
