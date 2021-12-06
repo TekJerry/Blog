@@ -13,3 +13,7 @@ export const grabPosts = async () => {
   const response = await axios.get(BASE_URL, config)
   return response.data.records
 }
+export const postPost = async (body) => {
+  const response = await axios.post(BASE_URL, { fields: body }, config)
+  return response.data
+}

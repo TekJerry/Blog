@@ -1,9 +1,10 @@
 import React from 'react'
 import { useState } from 'react'
 import axios from 'axios'
-import { BASE_URL } from '../services'
+import { postPost } from '../services'
+import { useNavigate } from 'react-router'
 
-export default function Form() {
+export default function Form(props) {
 
   const [angler, setAngler] = useState("")
   const [description, setDescription] = useState("")
@@ -16,6 +17,7 @@ export default function Form() {
   const [fish, setFish] = useState("")
   const [image, setImage] = useState("")
   const [date, setDate] = useState("")
+  const navigate = useNavigate()
  
 
   const handleSubmit = async (e) => {
@@ -34,60 +36,63 @@ export default function Form() {
       date,
       
     }
-    await axios.post(BASE_URL, newPost)
-    setToggle(prevToggle => !prevToggle)
+    const response = await postPost(newPost)
+      props.setToggle(prevToggle => !prevToggle)
+      if (response) {
+        navigate(`/`)
+      }
   }
 
 
   return (
     <div>
-      <form>
+      <form onSubmit={handleSubmit}>
+        <label>Your Name</label>
         <input type='text'
           value={angler}
           onChange={(e) => setAngler(e.target.value)}
-        />
+        /> <label>Write Your Story/Description Here</label>
         <input type='text'
           value={description}
           onChange={(e) => setDescription(e.target.value)}
-        />
+        /> <label>What Lure/Bait Did You Use?</label>
         <input type='text'
           value={lure}
           onChange={(e) => setLure(e.target.value)}
-        />
+        /> <label>State</label>
         <input type='text'
           value={state}
           onChange={(e) => setState(e.target.value)}
-        />
+        /> <label>City</label>
         <input type='text'
           value={city}
           onChange={(e) => setCity(e.target.value)}
-        />
+        /> <label>What Body Of Water Did You Catch It?</label>
         <input type='text'
           value={lake}
           onChange={(e) => setLake(e.target.value)}
-        />
+        /> <label>Freshwater or Saltwater?</label>
         <input type='text'
           value={freshwater}
           onChange={(e) => setFreshwater(e.target.value)}
-        />
+        /> <label>Catch It On Boat Or Bank</label>
         <input type='text'
           value={bank}
           onChange={(e) => setBank(e.target.value)}
-        />
+        /> <label>What Fish Did You Catch</label>
         <input type='text'
           value={fish}
           onChange={(e) => setFish(e.target.value)}
-        />
+        /> <label>Let's See Your Catch!</label>
         <input type='text'
           value={image}
           onChange={(e) => setImage(e.target.value)}
-        />
+        /> <label>Date Caught</label>
         <input type='text'
           value={date}
           onChange={(e) => setDate(e.target.value)}
         />
-
-        
+        <button>Post My Catch!</button>
       </form>
     </div>
   )
