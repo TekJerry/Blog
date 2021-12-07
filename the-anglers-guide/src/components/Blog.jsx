@@ -29,8 +29,7 @@ export default function Blog(props) {
           <div className="caught">{post.fields.date}</div>
           <p className="description">{post.fields.description}</p>
           <div className="location">
-            <h3>{post.fields.state}</h3><h3>,   </h3>
-            <h3>{post.fields.city}</h3>
+            <h3>{post.fields.state} , {post.fields.city}</h3>
             </div>
           </div>
         </div>
