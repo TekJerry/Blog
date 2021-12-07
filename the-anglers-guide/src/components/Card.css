@@ -41,7 +41,7 @@ card-title {
 
 .btn button {
   padding: 0.5rem;
-  background-color: rgb(42, 38, 38);
+  background-color: rgb(71, 227, 233);
   border: none;
   transition: 0.2s;
   margin-bottom: 0.5rem;
@@ -52,10 +52,13 @@ card-title {
   background: rgb(255, 255, 255);
   color: black;
 }
-
+.view-more:hover {
+  color: black;
+  text-decoration: none;
+}
 .view-more {
   text-transform: uppercase;
-  color: rgb(192, 246, 255);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-weight: bold;
 }
