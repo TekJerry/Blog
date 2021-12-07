@@ -1,7 +1,6 @@
 import './App.css';
 import {useEffect, useState} from 'react' 
-import axios from 'axios';
-import { Routes, Route, Link } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import { grabPosts } from './services';
 import Navbar from './components/Navbar';
 import Blogs from './components/Blogs'
