@@ -73,10 +73,15 @@
 .description {
   display: flex;
   /* border: 3px solid purple; */
-  width: max-content;
+  max-width: 850px;
   height: max-content;
   margin-left: 10px;
   margin-bottom: 50px;
+  /* background-color: black; */
+  padding: 10px;
+  border-radius: 10px;
+  word-spacing: 2px;
+  line-height: 1.6;
 }
 
 .location {
