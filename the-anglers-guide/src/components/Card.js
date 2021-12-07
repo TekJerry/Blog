@@ -19,7 +19,9 @@ export default function Card({ state, image, city, post }) {
       <div className="btn" >
         <button>
           <Link key={post.id} to={`/posts/${post.id}`}>
+            <p className="view-more">
             View More
+            </p>
           </Link>
         </button>
       </div>

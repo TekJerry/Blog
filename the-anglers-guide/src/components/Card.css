@@ -5,6 +5,7 @@
   transition: 0.3s;
   animation: ease-in;
   margin: 35px;
+  background: rgb(0, 0, 0);
 }
 
 .card-container:hover {
@@ -19,6 +20,7 @@
 .card-content {
   margin: 1rem;
   margin-top: 0.3rem;
+  color: rgb(192, 246, 255);
 }
 
 h3,
@@ -39,7 +41,7 @@ card-title {
 
 .btn button {
   padding: 0.5rem;
-  background-color: white;
+  background-color: rgb(42, 38, 38);
   border: none;
   transition: 0.2s;
   margin-bottom: 0.5rem;
@@ -47,12 +49,13 @@ card-title {
 }
 
 .btn button:hover {
-  background: rgb(203, 241, 248);
+  background: rgb(255, 255, 255);
+  color: black;
 }
 
-a {
+.view-more {
   text-transform: uppercase;
-  color: rgb(19, 117, 43);
+  color: rgb(192, 246, 255);
   text-decoration: none;
   font-weight: bold;
 }
