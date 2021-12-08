@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router'
 import "./Form.css"
 
 
-export default function Form(props) {
+export default function Form(props, closeModal) {
 
   const [angler, setAngler] = useState("")
   const [description, setDescription] = useState("")
