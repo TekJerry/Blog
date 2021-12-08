@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import styled from "styled-components";
-import { GlobalStyle } from "./globalStyles";
 import { Modal } from "./Modal";
 
 const Button = styled.button`
@@ -50,7 +49,6 @@ export default function Navbar(props) {
             </Link>
           </button>
         
-          {/* <GlobalStyle /> */}
         </Button>
         <Modal showModal={showModal} setShowModal={setShowModal} setToggle={props.setToggle} />
       </div>
