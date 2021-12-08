@@ -32,7 +32,6 @@ export default function Navbar() {
       <div className="navbar">
       
       <button className="fish-button"><Link to="/"><p className="test">Home</p><img src="https://i.imgur.com/LO8OyLp.png" height="80" width="150" alt="fish"/></Link></button>
-      <button className="fish-button"><Link to="/new"><p className="test">Create Post</p><img src="https://i.imgur.com/LO8OyLp.png" height="80" width="150" alt="fish" /></Link></button>
 
       
         <Button onClick={openModal}>  

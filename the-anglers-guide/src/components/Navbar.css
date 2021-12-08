@@ -31,4 +31,5 @@
 body {
   background-image: url("https://i.imgur.com/FfWODYy.jpg");
   background-position: center;
+  height: 100vh;
 }

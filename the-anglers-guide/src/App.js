@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Blogs from './components/Blogs'
 import Form from './components/Form';
 import Blog from './components/Blog';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
         <Route path="/" element={<Blogs posts={posts} />} />
         <Route path="/newer" element={<Form setToggle={setToggle} />} />
         <Route path="/posts/:id" element={<Blog posts={posts}/>} />
-        </Routes>
+      </Routes>
+      <Footer/>
     </div>
   );
 }

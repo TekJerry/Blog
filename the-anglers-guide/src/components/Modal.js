@@ -7,10 +7,10 @@ import { useSpring, animated } from 'react-spring'
 
 
 const Background = styled.div`
-width:100%;
+width: max-content;
 height:100;
-display: flex;
-justify-content: center;
+position:absolute;
+right: 500px;
 border: 5px green solid;
 `;
 
@@ -29,9 +29,9 @@ border-radius:10px;
 
 const ModalContent = styled.div`
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: center;
-  align-items: center;
+
   line-height: 1.8;
   color: #141414;
   border:blue 3px solid;
@@ -80,14 +80,16 @@ export const Modal = ({ showModal, setShowModal }) => {
   return (
     <>
       {showModal ? (
-      <Background ref={modalRef} onclick={closeModal}> 
+      <Background ref={modalRef} onClick={closeModal}> 
           <animated.div style={animation}>
         <ModalWrapper showModal={showModal} >
           <ModalContent>
             <Form />
             </ModalContent>
-            <CloseModalButton aria-label="Close modal" onClick={() => setShowModal
-              (prev => !prev)} />
+              <CloseModalButton
+                aria-label="Close modal"
+                onClick={() => setShowModal(prev => !prev)}
+              />
         </ModalWrapper>
         </animated.div>
       </Background>
