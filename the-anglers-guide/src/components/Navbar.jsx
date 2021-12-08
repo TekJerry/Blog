@@ -10,7 +10,7 @@ padding:16px 32px;
 border: none;
 background: none;
 color: #fff;
-font-size: 24px;
+font-size: 10px;
 cursor:pointer;
 `;
 
@@ -36,9 +36,9 @@ export default function Navbar(props) {
           </Link>
         </button>
 
-        <Button onClick={openModal}><>
-          <button className="fish-button">
-            <Link to="/">
+        <Button onClick={openModal} className="fish-button">
+         
+            
               <p className="test">Post Your Catch</p>
               <img
                 src="https://i.imgur.com/LO8OyLp.png"
@@ -46,9 +46,7 @@ export default function Navbar(props) {
                 width="150"
                 alt="fish"
               />
-            </Link>
-          </button>
-        </>
+
         </Button>
         <Modal showModal={showModal} setShowModal={setShowModal} setToggle={props.setToggle} />
       </div>

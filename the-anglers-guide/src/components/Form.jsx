@@ -92,7 +92,7 @@ export default function Form(props) {
           value={date}
           onChange={(e) => setDate(e.target.value)}
         />
-        {/* <button>Post My Catch!</button> */}
+        <button>Post My Catch!</button>
       </form>
     </div>
   )
