@@ -18,7 +18,6 @@ border: 5px green solid;
 const ModalWrapper = styled.div`
 width: 1200px;
 height: 600px;
-border: red 3px solid;
 background: #fff;
 color:#000;
 display grid;
@@ -37,7 +36,6 @@ const ModalContent = styled.div`
   background-size:cover;
   line-height: 1.8;
   color: #141414;
-  border:blue 3px solid;
   input {
     border: 3px black solid;
     margin: 1rem;
