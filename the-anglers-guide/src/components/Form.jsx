@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { postPost } from '../services'
 import { useNavigate } from 'react-router'
+import "./Form.css"
 
 
 export default function Form(props) {
@@ -46,7 +47,7 @@ export default function Form(props) {
 
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="input-form">
         <label>Your Name</label>
         <input type='text'
           value={angler}

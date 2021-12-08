@@ -10,7 +10,7 @@ padding:16px 32px;
 border: none;
 background: none;
 color: #fff;
-font-size: 10px;
+font-size: 13px;
 cursor:pointer;
 `;
 

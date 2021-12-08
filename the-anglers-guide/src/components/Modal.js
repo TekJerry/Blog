@@ -30,12 +30,13 @@ border-radius:10px;
 const ModalContent = styled.div`
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
+  align-content:center;
+  align-content: center;
 
   line-height: 1.8;
   color: #141414;
   border:blue 3px solid;
-  p {
+  input {
     margin-bottom: 1rem;
   }
   button {
