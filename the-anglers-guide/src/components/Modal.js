@@ -10,13 +10,13 @@ const Background = styled.div`
 width: max-content;
 height:100;
 position:absolute;
-right: 500px;
+left: 18%;
 border: 5px green solid;
 `;
 
 
 const ModalWrapper = styled.div`
-width: 900px;
+width: 1200px;
 height: 600px;
 border: red 3px solid;
 background: #fff;
@@ -29,15 +29,19 @@ border-radius:10px;
 
 const ModalContent = styled.div`
   display: flex;
-  flex-flow: column wrap;
   align-content:center;
-  align-content: center;
-
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://i.imgur.com/u7iegZo.jpg");
+  background-position:center;
+  background-size:cover;
   line-height: 1.8;
   color: #141414;
   border:blue 3px solid;
   input {
-    margin-bottom: 1rem;
+    border: 3px black solid;
+    margin: 1rem;
+    width: 310px;
   }
   button {
     padding: 10px 24px;
@@ -45,6 +49,13 @@ const ModalContent = styled.div`
     color: #fff;
     border: none;
   }
+  textarea {
+    width:500px;
+    height:175px;
+    resize:none;
+    border: 3px solid black;
+  }
+
 `;
 
 const CloseModalButton = styled(MdClose)`
