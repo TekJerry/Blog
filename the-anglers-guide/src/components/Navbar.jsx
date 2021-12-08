@@ -36,7 +36,7 @@ export default function Navbar(props) {
           </Link>
         </button>
 
-        <Button onClick={openModal}>
+        <Button onClick={openModal}><>
           <button className="fish-button">
             <Link to="/">
               <p className="test">Post Your Catch</p>
@@ -48,7 +48,7 @@ export default function Navbar(props) {
               />
             </Link>
           </button>
-        
+        </>
         </Button>
         <Modal showModal={showModal} setShowModal={setShowModal} setToggle={props.setToggle} />
       </div>
