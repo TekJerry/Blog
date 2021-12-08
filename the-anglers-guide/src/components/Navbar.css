@@ -23,9 +23,19 @@
   color: rgb(173, 226, 173);
 }
 
-.navbar {
+.navbaro {
   background-image: url("https://i.imgur.com/3uST4Fx.jpg");
   background-position: top;
+  border: red 3px solid;
+  align-content: center;
+  width: 100%;
+  justify-content: center;
+}
+.center-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 body {

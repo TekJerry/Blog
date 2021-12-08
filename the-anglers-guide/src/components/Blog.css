@@ -5,12 +5,15 @@
   border-radius: 15px;
 }
 
-.container {
+.containero {
   display: flex;
   align-items: center;
-  justify-content: center;
-  /* border: green 3px solid; */
+  justify-content: space-around;
+  border: green 3px solid;
   height: 600px;
+  margin-top: 200px;
+  margin-bottom: 450px;
+  width: 100%;
 }
 
 .image-containers {
@@ -44,7 +47,7 @@
   /* border: red 3px solid; */
   margin-left: 30px;
   flex-flow: column nowrap;
-  width: 900px;
+  width: 1000px;
   background-color: rgb(29, 88, 55);
   border-radius: 20px;
   color: white;
@@ -76,7 +79,7 @@
 .description {
   display: flex;
   /* border: 3px solid purple; */
-  max-width: 850px;
+  max-width: 940px;
   height: max-content;
   margin-left: 10px;
   margin-bottom: 50px;
@@ -95,7 +98,7 @@
   /* border: 3px solid black; */
   width: max-content;
   height: max-content;
-  margin-left: 700px;
+  margin-left: 400px;
   margin-bottom: 10px;
   text-shadow: 4px 4px 6px black;
 }

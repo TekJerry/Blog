@@ -1,12 +1,5 @@
 .footer {
   background-image: url("https://i.imgur.com/3uST4Fx.jpg");
-  height: max-content;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
 }
 
 .footer img {

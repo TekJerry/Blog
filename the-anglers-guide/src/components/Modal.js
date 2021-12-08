@@ -59,7 +59,7 @@ const CloseModalButton = styled(MdClose)`
 `;
 
 
-export const Modal = ({ showModal, setShowModal }) => {
+export const Modal = ({ showModal, setShowModal, setToggle }) => {
   
   const modalRef = useRef()
   
@@ -84,7 +84,7 @@ export const Modal = ({ showModal, setShowModal }) => {
           <animated.div style={animation}>
         <ModalWrapper showModal={showModal} >
           <ModalContent>
-            <Form />
+            <Form setToggle={setToggle} />
             </ModalContent>
               <CloseModalButton
                 aria-label="Close modal"

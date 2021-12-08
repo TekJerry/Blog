@@ -18,7 +18,7 @@ export default function Blog(props) {
     <div>
       { post && post.fields &&
         <>
-      <div className="container">
+      <div className="containero">
             <div className="image-containers">
               <img className="main-image" src={post.fields.image} alt="Fish Caught" />
                 <div className="lake">{post.fields.lake}</div>
