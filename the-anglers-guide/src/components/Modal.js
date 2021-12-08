@@ -11,7 +11,8 @@ width: max-content;
 height:100;
 position:absolute;
 left: 18%;
-border: 5px green solid;
+border: 15px black solid;
+border-radius: 20px;
 `;
 
 
