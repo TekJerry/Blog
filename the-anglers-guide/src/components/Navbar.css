@@ -47,4 +47,8 @@ body {
   body {
     background-image: url("https://i.imgur.com/s4htXX7.jpg");
   }
+
+  .headero h1 {
+    font-size: 100px;
+  }
 }
