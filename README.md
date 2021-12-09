@@ -2,7 +2,7 @@
 
 ## Project Name
 
-The Anglers Guide
+The Anglers Guide ---> https://61b12abb3683380007b10146--musing-joliot-2fa60f.netlify.app/
 
 ## Project Description
 
@@ -77,7 +77,7 @@ Component Hierarchy link here ---> https://whimsical.com/component-hierarchy-JTV
 - Use my own Airtable API
 - Render data on page using React
 - Allow users to post their own catches (using API POST request)
-- Navbar that sends you from home to posts
+- Navbar using "Link"
 
 #### PostMVP
 
@@ -89,29 +89,29 @@ Component Hierarchy link here ---> https://whimsical.com/component-hierarchy-JTV
 
 | Day     | Deliverable                                        | Status     |
 | ------- | -------------------------------------------------- | ---------- |
-| Dec 1-2 | Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete |
-| Dec 2   | Project Approval                                   | Incomplete |
-| Dec 2-5 | React / Pseudocode / actual code                   | Incomplete |
-| Dec 6-7 | Css / Grid or Flexbox                              | Incomplete |
-| Dec 8   | MVP                                                | Incomplete |
+| Dec 1-2 | Prompt / Wireframes / Priority Matrix / Timeframes | Complete   |
+| Dec 2   | Project Approval                                   | Complete   |
+| Dec 2-5 | React / Pseudocode / actual code                   | Complete   |
+| Dec 6-7 | Css / Grid or Flexbox                              | Complete   |
+| Dec 8   | MVP                                                | Complete   |
 | Dec 9   | Presentations                                      | Incomplete |
 
 ## Timeframes
 
 | Component            | Priority | Estimated Time | Time Invested | Actual Time |
 | -------------------- | :------: | :------------: | :-----------: | :---------: |
-| Working on App file  |    H     |      4hrs      |     0hrs      |             |
-| Get request from API |    H     |      3hrs      |     0hrs      |             |
-| React jsx Blogs      |    H     |      4hrs      |     0hrs      |             |
-| Css for each post    |    H     |      3hrs      |     0hrs      |             |
-| Css for Blogs page   |    H     |      3hrs      |     0hrs      |             |
-| Post request to API  |    H     |      4hrs      |     0hrs      |             |
-| React Form blog      |    H     |      3hrs      |     0hrs      |             |
-| Navbar               |    H     |      3hrs      |     0hrs      |             |
-| Styling Homepage     |    H     |      3hrs      |     0hrs      |             |
-| Footer               |    H     |      1hrs      |     0hrs      |             |
-| Header               |    H     |      1hrs      |     0hrs      |             |
-| Total                |    H     |     32hrs      |     0hrs      |             |
+| Working on App file  |    H     |      4hrs      |     3hrs      |             |
+| Get request from API |    H     |      3hrs      |     3hrs      |             |
+| React jsx Blogs      |    H     |      4hrs      |     4hrs      |             |
+| Css for each post    |    H     |      3hrs      |     2hrs      |             |
+| Css for Blogs page   |    H     |      3hrs      |     5hrs      |             |
+| Post request to API  |    H     |      4hrs      |     5hrs      |             |
+| React Form blog      |    H     |      3hrs      |     4hrs      |             |
+| Navbar               |    H     |      3hrs      |     4hrs      |             |
+| Styling Homepage     |    H     |      3hrs      |     3hrs      |             |
+| Footer               |    H     |      1hrs      |     2hrs      |             |
+| Header               |    H     |      1hrs      |     1hrs      |             |
+| Total                |    H     |     32hrs      |     36hrs     |             |
 
 ## SWOT Analysis
 
