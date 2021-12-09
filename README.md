@@ -98,20 +98,20 @@ Component Hierarchy link here ---> https://whimsical.com/component-hierarchy-JTV
 
 ## Timeframes
 
-| Component            | Priority | Estimated Time | Time Invested | Actual Time |
-| -------------------- | :------: | :------------: | :-----------: | :---------: |
-| Working on App file  |    H     |      4hrs      |     3hrs      |             |
-| Get request from API |    H     |      3hrs      |     3hrs      |             |
-| React jsx Blogs      |    H     |      4hrs      |     4hrs      |             |
-| Css for each post    |    H     |      3hrs      |     2hrs      |             |
-| Css for Blogs page   |    H     |      3hrs      |     5hrs      |             |
-| Post request to API  |    H     |      4hrs      |     5hrs      |             |
-| React Form blog      |    H     |      3hrs      |     4hrs      |             |
-| Navbar               |    H     |      3hrs      |     4hrs      |             |
-| Styling Homepage     |    H     |      3hrs      |     3hrs      |             |
-| Footer               |    H     |      1hrs      |     2hrs      |             |
-| Header               |    H     |      1hrs      |     1hrs      |             |
-| Total                |    H     |     32hrs      |     36hrs     |             |
+| Component            | Priority | Estimated Time | Time Invested |
+| -------------------- | :------: | :------------: | :-----------: |
+| Working on App file  |    H     |      4hrs      |     3hrs      |
+| Get request from API |    H     |      3hrs      |     3hrs      |
+| React jsx Blogs      |    H     |      4hrs      |     4hrs      |
+| Css for each post    |    H     |      3hrs      |     2hrs      |
+| Css for Blogs page   |    H     |      3hrs      |     5hrs      |
+| Post request to API  |    H     |      4hrs      |     5hrs      |
+| React Form blog      |    H     |      3hrs      |     4hrs      |
+| Navbar               |    H     |      3hrs      |     4hrs      |
+| Styling Homepage     |    H     |      3hrs      |     3hrs      |
+| Footer               |    H     |      1hrs      |     2hrs      |
+| Header               |    H     |      1hrs      |     1hrs      |
+| Total                |    H     |     32hrs      |     36hrs     |
 
 ## SWOT Analysis
 
